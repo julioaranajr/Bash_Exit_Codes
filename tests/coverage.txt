@@ -1,0 +1,7 @@
+❯ coverage report -m
+Name                      Stmts   Miss  Cover   Missing
+-------------------------------------------------------
+bash_exit_codes.py           40      2    95%   60-61
+test_bash_exit_codes.py      49      1    98%   58
+-------------------------------------------------------
+TOTAL                        89      3    97%

@@ -1,0 +1,6 @@
+❯ pylint bash_exit_codes.py
+************* Module bash_exit_codes
+bash_exit_codes.py:22:8: W0612: Unused variable 'code' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 9.75/10 (previous run: 9.74/10, +0.01)
