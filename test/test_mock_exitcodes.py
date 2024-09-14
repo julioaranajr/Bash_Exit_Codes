@@ -1,7 +1,15 @@
+"""Mocking subprocess.run() to test bash_exit_codes.py"""
+
+
+import sys
+from pathlib import Path
+sys.path.append(str(Path(__file__).parent.parent / 'src'))
+
+import subprocess
 import unittest
 from unittest.mock import patch
-import subprocess
 from bash_exit_codes import test_exit_codes
+
 
 class TestBashExitCodes(unittest.TestCase):
 
@@ -55,4 +63,4 @@ class TestBashExitCodes(unittest.TestCase):
             mocked_print.assert_any_call('Exit code: 999 (Unknown exit code)')
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(verbosity=4)

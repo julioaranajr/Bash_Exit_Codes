@@ -35,7 +35,7 @@ try:
     print('\n')
     print('Testing exit codes')
     print('=' * 79)
-    test_exit_codes('git --version')
+    test_exit_codes('echo "Hello, World!"')
     print('-' * 79)
     test_exit_codes('exit 257')
     print('-' * 79)

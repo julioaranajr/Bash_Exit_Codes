@@ -52,3 +52,19 @@ Exit codes are a way to communicate the outcome of a script or command to the ca
 Source: [Advanced Bash-Scripting Guide Appendix E.](https://www.tldp.org/LDP/abs/html/exitcodes.html)
 
 ---
+
+## Python-Unittest
+
+### How to run tests
+
+1. install `unittest` by command
+
+    ```bash
+    pip install unittest
+    ```
+
+2. run test by command
+
+    ```bash
+    python3 -m unittest -vvvv test/test_exitcodes.py test/test_mock_exitcodes.py
+    ```
